@@ -1,4 +1,4 @@
-package advanced_graphs.isAnagram;
+package arrays_hashing.isAnagram;
 
 import java.util.HashMap;
 

@@ -1,4 +1,4 @@
-package advanced_graphs.twoSums;
+package arrays_hashing.twoSums;
 
 import java.util.Arrays;
 import java.util.HashMap;

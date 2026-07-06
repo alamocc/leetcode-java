@@ -1,4 +1,4 @@
-package advanced_graphs.containsDuplicate;
+package arrays_hashing.containsDuplicate;
 
 import java.util.Arrays;
 import java.util.HashSet;
