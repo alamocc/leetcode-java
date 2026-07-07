@@ -44,7 +44,7 @@ public class Solution {
 		System.out.println("Output: " + groupAnagrams(strs2));
 		
 		// Test3
-		System.out.println("------------------TEST 1------------------\n");
+		System.out.println("------------------TEST 3------------------\n");
 		
 		String[] strs3 = {""};
 		System.out.println("Input: strs = [" + Arrays.toString(strs3) + "]");
