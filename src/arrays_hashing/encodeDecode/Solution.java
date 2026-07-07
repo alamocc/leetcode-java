@@ -1,10 +1,11 @@
 package arrays_hashing.encodeDecode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Solution {
-    public String encode(List<String> strs) {
+    public static String encode(List<String> strs) {
     	if(strs.isEmpty()) return "";
     	
     	StringBuilder res = new StringBuilder();
@@ -26,7 +27,7 @@ public class Solution {
     	return res.toString();
     }	
 
-    public List<String> decode(String str) {
+    public static List<String> decode(String str) {
     	List<String> res = new ArrayList<>();
     	if(str.length() == 0) return res;
     	
@@ -58,4 +59,16 @@ public class Solution {
     	
     	return res;
     }
+    
+    public static void main(String[] args) {
+    	System.out.println("------------------TEST 1------------------\n");
+    	List<String> strs = List.of("Hello", "World");
+    	System.out.println("Input: " + strs.toString() + "\n");
+    	
+    	String encode = encode(strs);
+    	System.out.println("ENCODE: " + encode + "\n");
+    	
+    	List<String> decode = decode(encode);
+    	System.out.println("DECODE: " + decode.toString());
+	}
 }
