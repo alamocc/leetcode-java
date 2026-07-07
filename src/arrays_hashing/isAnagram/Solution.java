@@ -1,6 +1,7 @@
 package arrays_hashing.isAnagram;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Solution {
 
@@ -8,8 +9,8 @@ public class Solution {
 		if(s.length() != t.length())
 			return false;
 		
-		HashMap<Character, Integer> countS = new HashMap<>();
-		HashMap<Character, Integer> countT = new HashMap<>();
+		Map<Character, Integer> countS = new HashMap<>();
+		Map<Character, Integer> countT = new HashMap<>();
 		
 		for(int i = 0; i < s.length(); i++) {
 			if(!countS.containsKey(s.charAt(i))) {
